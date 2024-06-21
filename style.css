@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.buttons {
+    border: 5px rgb(212, 61, 61);
+    background-color: rgb(236, 191, 142);
+    padding: 10px;
+    border-radius:5%;
+}
+
+.button {
+    border: 2px solid rgb(242, 63, 63);
+    background-color: rgb(249, 100, 97);
+    margin: 7px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    font-weight: 200;
+    font-style: block;
+    font-size: large;
+}
+.field{
+    width:300px;
+    height:40px;
+    border: 2px solid rgb(239, 89, 89);
+    border-radius: 15%;
+    font-size: 20px;
+    color: rgb(42, 46, 50);
+}
+.button:hover{
+    background-color: rgb(249, 116, 118);
+}
